@@ -8,17 +8,17 @@
 .B{
     width: 400px;
     height: 400px;
-    background-color: #d9d6b5; /* light yellow */
-    margin: 100px auto; /* margin */
+    background-color: #d9d6b5;
+    margin: 100px auto; 
 }
 .C{
-    width: 100px;              /* content */
-    height: 120px;             /* content */
+    width: 100px;              
+    height: 120px;             
     background-color: #7CFC00;
-    border-radius: 5px; /* green content */
+    border-radius: 5px; 
 
-    padding-bottom: 20px;      /* padding (brown area effect) */
-    border: 2px solid black;   /* border */
+    padding-bottom: 20px;      
+    border: 2px solid black;   
     top: 20px;
     left: 20px;
 }
