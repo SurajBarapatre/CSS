@@ -1,0 +1,63 @@
+body{
+        margin: 0;
+        background-color: #e5e5e5;
+        font-family: Arial, sans-serif;
+    }
+
+        
+.header{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 30px;
+        font-size: 22px;
+        font-weight: bold;
+        }
+
+        
+table{
+        width: 95%;
+        margin: 35px auto;
+        border-collapse: collapse;
+        background-color: white;
+    }
+
+th{
+        background-color: #333333;
+        color: white;
+        padding: 15px;
+        border: 1px solid gray;
+        font-size: 16px;
+    }
+
+td{
+        text-align: center;
+        padding: 15px;
+        border: 1px solid #999;
+        font-size: 15px;
+    }
+
+    
+.Pass{
+        color: green;
+        font-weight: bold;
+    }
+
+.Fail{
+        color: red;
+        font-weight: bold;
+    }
+
+        
+.button
+{
+        background-color: orange;
+        border: none;
+        padding: 8px 15px;
+        cursor: pointer;
+        font-weight: bold;
+        }
+
+.button:hover{
+        background-color: darkorange;
+        }
