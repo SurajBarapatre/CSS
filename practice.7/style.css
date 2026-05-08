@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#fff;
+    }
+
+        
+.navbar{
+    width:100%;
+    background:#f2f2f2;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px 20px;
+    border-bottom:1px solid #ddd;
+    }
+
+.nav-left{
+    display:flex;
+    align-items:center;
+        }
+
+.logo{
+    font-size:22px;
+    font-weight:600;
+    margin-right:30px;
+    }
+
+.nav-left a{
+    text-decoration:none;
+    color:#333;
+    padding:15px 18px;
+    font-size:15px;
+        }
+
+.nav-left a:hover{
+    background:#ddd;
+        }
+
+.profile{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    background:url('https://i.pravatar.cc/100');
+    background-size:cover;
+    border:2px solid #999;
+        }
+
+    
+.hero{
+    background:#ededed;
+    padding:80px;
+    }
+
+.hero h1{
+    font-size:80px;
+    color:#333;
+    margin-bottom:20px;
+    font-weight:400;
+        }
+
+.hero h1 i{
+    margin-right:15px;
+        }
+
+.hero p{
+    width:80%;
+    font-size:22px;
+    line-height:40px;
+    color:#333;
+    margin-bottom:35px;
+        }
+
+.button{
+    background:#428bca;
+    color:white;
+    padding:16px 30px;
+    text-decoration:none;
+    border-radius:5px;
+    font-size:22px;
+    display:inline-block;
+        }
+
+.button:hover{
+    background:#3071a9;
+        }
+
+.cards{
+    width:90%;
+    margin:60px auto;
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+    }
+
+.card{
+    width:33%;
+    }
+
+.card h2{
+    font-size:35px;
+    color:#333;
+    margin-bottom:20px;
+    font-weight:400;
+        }
+
+.card h2 i{
+    margin-right:10px;
+        }
+
+.card p{
+    font-size:18px;
+    line-height:32px;
+    color:#444;
+    margin-bottom:25px;
+        }
+
+.card-button{
+    padding:12px 22px;
+    border:1px solid #ccc;
+    text-decoration:none;
+    color:#333;
+    border-radius:5px;
+    font-size:18px;
+    background:white;
+    display:inline-block;
+        }
+
+.card-button:hover{
+    background:#f2f2f2;
+        }
+
+    
+.footer{
+    width:90%;
+    margin:40px auto;
+    border-top:1px solid #ddd;
+    padding-top:25px;
+    color:#555;
+    font-size:16px;
+    }
