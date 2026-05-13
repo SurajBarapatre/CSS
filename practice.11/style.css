@@ -42,7 +42,7 @@ body{
 
 .linear{
     height:140px;
-    background:linear-gradient(to right,#f7a56a,#ff5f7e);
+    background:linear-gradient(to left,#f7a56a,#ff5f7e);
     position:relative;
 }
 
