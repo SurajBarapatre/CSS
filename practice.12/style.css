@@ -158,27 +158,25 @@ body{
         }
 
 .article-grid{
+    justify-content:space-between;
+    margin: 10px;
     display:grid;
     grid-template-columns:repeat(2,1fr);
-    gap:25px;
-        }
-
-.article{
-    display:flex;
     gap:15px;
         }
 
-.article-box{
-    width:160px;
-    height:90px;
-    background:#1565d8;
-    border-radius:5px;
-        }
+.top-articles img {
+    width: 180px;
+    height: 150px;
+    border-radius: 10px;
+}
+
 
 .article h4{
     color:#666;
     font-size:16px;
     margin-bottom:5px;
+    grid-template-columns: repeat(2, 1fr);
         }
 
 .article p{
