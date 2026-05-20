@@ -5,56 +5,312 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HRM Webpage</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link
   href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
-  rel="stylesheet"
+  rel="stylesheet">
 />
 </head>
 <body>
     <main>
-    <section class="left section">
-        <div class="logo-name-box">
-            <i class="ri-building-4-fill"></i>
-            <h3>HRM Portal</h3>
-        </div>
-        <div class="sidebar">
-            <div class="side-bottom-box">
-            
-                <div>
-               <i class="ri-dashboard-fill"></i>
-                <span>Dashboard</span> 
-            </div>
-        </div>
-            
-            <div>
-                <i class="ri-dashboard-fill"></i>
-                <span>Dashboard</span>
-            </div>
-            <div>
-                <i class="ri-dashboard-fill"></i>
-                <span>Dashboard</span>
-            </div>
-            <div>
-                <i class="ri-dashboard-fill"></i>
-                <span>Dashboard</span>
-            </div>
-            <div>
-                <i class="ri-dashboard-fill"></i>
-                <span>Dashboard</span>
-            </div>
-            <div>
-                <i class="ri-dashboard-fill"></i>
-                <span>Dashboard</span>
-            </div>
+    <div class="container">
 
-        </div>
-         
-    </section>
-    <section class="right section">
+    <div class="sidebar">
 
-    </section>
+    <div class="logo">
+        <i class="fa-solid fa-building"></i>
+        HRM Portal
+    </div>
+
+    <div class="menu">
+
+    <div class="menu-item active">
+        <i class="fa-solid fa-table-columns"></i>
+        Dashboard
+    </div>
+
+    <div class="menu-item">
+        <i class="fa-regular fa-clock"></i>
+        Attendence
+    </div>
+
+    <div class="menu-item">
+        <i class="fa-regular fa-calendar"></i>
+                    Leave
+    </div>
+
+    <div class="submenu">
+        Apply Leave <br>
+        My Leave <br>
+        Leave Policy
+    </div>
+
+    <div class="menu-item">
+        <i class="fa-regular fa-file"></i>
+        Pay Slip
+    </div>
+
+    <div class="menu-item">
+        <i class="fa-regular fa-folder"></i>
+        Document
+    </div>
+
+    <div class="menu-item">
+        <i class="fa-regular fa-user"></i>
+        Profile
+    </div>
+
+    </div>
+
+    <div class="bottom-menu">
+
+    <div class="menu-item">
+        <i class="fa-solid fa-gear"></i>
+    Settings
+    </div>
+
+    <div class="menu-item logout">
+        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+    Log out
+    </div>
+
+    </div>
+
+    </div>
+
+    <div class="main">
+
+    <div class="topbar">
+
+        <input type="text" class="search"
+        placeholder="Search people, leave, policies">
+
+    <div class="profile">
+
+        <i class="fa-regular fa-bell"></i>
+
+    <div class="profile-box">
+
+        <img src="image.1.png" alt="">
+
+    <div class="profile-text">
+        <h4>Suraj S. Barapatre</h4>
+        <p>Full Stack Developer</p>
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+      
+    <div class="welcome">
+
+        <h1>Welcome Back, Suraj!</h1>
+        <p>
+        Manage your leave and track your time off
+        </p>
+
+    </div>
+
+    <div class="dashboard">
+
+    <div class="summary">
+
+        <h2>Leave Summary</h2>
+
+    <div class="cards">
+
+    <div class="card blue">
+
+    <div class="card-left">
+
+    <div class="icon">
+        <i class="fa-regular fa-file"></i>
+    </div>
+
+    <div class="card-text">
+        <h3>Annual Leave</h3>
+        <h4>12/18</h4>
+        <p>Days Remaining</p>
+    </div>
+
+    </div>
+
+    <div class="dots">
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+    </div>
+
+    </div>
+
+    <div class="card yellow">
+
+    <div class="card-left">
+
+    <div class="icon">
+        <i class="fa-regular fa-file"></i>
+    </div>
+
+    <div class="card-text">
+        <h3>Sick Leave</h3>
+        <h4>6/10</h4>
+        <p>Days Remaining</p>
+    </div>
+
+    </div>
+
+    <div class="dots">
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+    </div>
+
+    </div>
+
+    <div class="card green">
+
+    <div class="card-left">
+
+    <div class="icon">
+        <i class="fa-regular fa-file"></i>
+    </div>
+
+    <div class="card-text">
+        <h3>Casual Leave</h3>
+        <h4>2/5</h4>
+        <p>Days Remaining</p>
+    </div>
+
+    </div>
+
+    <div class="dots">
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+    </div>
+
+    </div>
+
+    <div class="card pink">
+
+    <div class="card-left">
+
+    <div class="icon">
+        <i class="fa-regular fa-file"></i>
+    </div>
+
+    <div class="card-text">
+        <h3>Unpaid Leave</h3>
+        <h4>Available</h4>
+        <p>When Needed</p>
+    </div>
+
+    </div>
+
+    <div class="dots">
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+    </div>
+
+    </div>
+
+    </div>
+
+        <button class="apply-button">
+            Apply Leave
+        </button>
+
+    </div>
+
+    <div class="status">
+
+        <h2>Today Status</h2>
+
+    <div class="status-box status-green">
+
+    <div class="status-icon">
+        <i class="fa-regular fa-clock"></i>
+    </div>
+
+    <div class="status-text">
+        <h4>Status</h4>
+        <p>Working from Office</p>
+    </div>
+
+    </div>
+
+    <div class="status-box status-blue">
+
+    <div class="status-icon">
+        <i class="fa-regular fa-clock"></i>
+    </div>
+
+    <div class="status-text">
+        <h4>Working Hours</h4>
+        <p>9:00 am - 6:00 pm</p>
+    </div>
+
+    </div>
+
+    <div class="status-box status-yellow">
+
+    <div class="status-icon">
+        <i class="fa-regular fa-clock"></i>
+    </div>
+
+    <div class="status-text">
+        <h4>Entry Time</h4>
+        <p>9:00 am</p>
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    <div class="quick">
+
+        <h2>Quick Action</h2>
+
+    <div class="quick-cards">
+
+    <div class="quick-card quick-blue">
+
+        <i class="fa-regular fa-calendar"></i>
+
+    <div>
+        <h4>Apply Leave</h4>
+        <p>Request Time Off</p>
+    </div>
+
+    </div>
+
+    <div class="quick-card quick-green">
+
+        <i class="fa-regular fa-file"></i>
+
+    <div>
+        <h4>My Leave History</h4>
+        <p>View all Request</p>
+    </div>
+
+    </div>
+
+    <div class="quick-card quick-yellow">
+
+        <i class="fa-regular fa-file"></i>
+
+    <div>
+        <h4>Apply Leave</h4>
+    <p>Request Time Off</p>
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
     </main>
 
 </body>
