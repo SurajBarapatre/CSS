@@ -32,7 +32,11 @@
     }
 
 .logo i{
-    color:#2979ff;
+    color: white;
+    background-color: #156DEF;
+    padding: 5px;
+    border-radius: 8px;
+
     }
 
 .menu{
@@ -95,7 +99,7 @@
     height:45px;
     border:1px solid #ddd;
     border-radius:10px;
-    padding-left:18px;
+    padding-right:18px;
     font-size:15px;
     }
 
