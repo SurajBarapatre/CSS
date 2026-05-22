@@ -254,6 +254,11 @@
     font-size:16px;
         }
 
+.apply-button:hover{
+    background:#bc184c;
+    text-color:rgb(19, 16, 16);
+        }
+
 .status{
     flex:1.2;
     background:white;
