@@ -255,6 +255,8 @@
 .card-left {
     display:flex;
     gap:15px;
+    justify-content:center;
+    align-items:center;
 }
 
 .icon {
@@ -358,12 +360,15 @@
     margin-top:2px;
 }
 
-.quick-action {
-    background: white;
-    margin-top:25px;
-    border-radius:16px;
-    padding:25px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+.quick-action h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 600;
+    unicode-bidi: isolate;  
 }
 
 .quick-cards {
