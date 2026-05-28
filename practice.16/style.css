@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#efefef;
+}
+
+
+.container{
+    width:100%;
+    min-height:100vh;
+    position:relative;
+}
+
+
+.top-box{
+    width:260px;
+    height:260px;
+    background:#dddddd;
+    margin:20px auto;
+    padding:35px;
+    border:2px solid transparent;
+    position:relative;
+}
+
+.top-image{
+    width:100%;
+    height:100%;
+    border:15px solid #1f8fff;
+    border-radius:4px;
+    overflow:hidden;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.top-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.team-card{
+    width:170px;
+    height:265px;
+    background:#f8f8f8;
+    border:4px solid #2563eb;
+    padding:10px;
+    margin-left:150px;
+    margin-top:40px;
+    position:relative;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.15);
+}
+
+.team-card h2{
+    font-size:20px;
+    margin-top:10px;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.member-box{
+    width:100%;
+    background:white;
+    padding:5px;
+    border-radius:8px;
+    box-shadow:0px 3px 8px rgba(0,0,0,0.15);
+    text-align:center;
+}
+
+.member-box img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    border:3px solid #35c96d;
+    margin-bottom:12px;
+}
+
+.member-box h3{
+    margin-bottom:6px;
+}
+
+.member-box p{
+    color:#777;
+    font-size:10px;
+    margin: bottom start 3px;
+}
+
+.member-box i{
+    color:#35c96d;
+}
+
+
+.profile-card{
+    width:240px;
+    height:270px;
+    background:#dddddd;
+    padding:18px;
+    position:absolute;
+    right:130px;
+    bottom:30px;
+}
+
+.profile-inner{
+    width:100%;
+    height:100%;
+    background:white;
+    padding:15px;
+    box-shadow:0px 3px 10px rgba(0,0,0,0.18);
+}
+
+.profile-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+}
+
+.profile-text h3{
+    color:#3b82f6;
+    font-size:18px;
+}
+
+.profile-text p{
+    color:#888;
+    font-size:13px;
+}
+
+.profile-top img{
+    width:70px;
+    height:70px;
+    border-radius:4px;
+    object-fit:cover;
+}
+
+.social-box{
+    background:#1f8fff;
+    padding:8px;
+    text-align:center;
+    margin-bottom:18px;
+}
+
+.social-box i{
+    color:white;
+    margin:0px 7px;
+    font-size:14px;
+}
+
+.profile-inner p{
+    text-align:center;
+    font-size:14px;
+    line-height:22px;
+    color:#666;
+}
