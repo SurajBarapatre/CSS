@@ -1,1 +1,2 @@
-
+# Output -
+![Uploading Gradiant.png…]()
