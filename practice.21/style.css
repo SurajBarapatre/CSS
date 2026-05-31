@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+    color: #333;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+li{
+    padding: 4px;
+    font-weight:280;
+    font-style:normal;
+    font-size: medium;
+    margin-bottom:6px;
+}
+
+.body{
+    margin-top: 50px;
+    background-color: #615f63;
+    height: 450px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    width: 90%;
+    height: 80px;
+    justify-content: center;
+    background: #615f63;
+    color: #fff;
+    
+}
+
+.sub-box{
+    height:300px;
+    width: 90%;
+    display: flex;
+    background-color: #dacd1b;
+    margin:50px;
+    box-sizing: border-box;
+}
+
+.box{
+    background-color: #25d9d0fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #000000;
+    font-size: 1rem;
+    color: #333;
+    height: 60px;
+    box-sizing: border-box;
+    flex-shrink: 2px;
+}
+
+.box-1{
+    display: flex;
+}
+
+.basis-auto {
+    flex-basis: auto;
+    }
+
+.basis-200 {
+    flex-basis: 20px;
+    }
+
+.basis-30 {
+    flex-basis: 30%;
+    }
+
+.auto {
+  flex-grow: 0;
+}
+
+.one {
+  flex-grow: 1;
+}
+
+.two {
+  flex-grow: 2;
+}
+
+.boxx{
+    display: flex;
+    width: 120px;
+    height: 100px;
+}
+.shrink-0 {
+    flex-shrink: 0;
+    width: 120px;
+    height: 100px;
+
+}
+
+.shrink-1 {
+    flex-shrink: 1;
+    width: 120px;
+    height: 100px;
+}
+
+.shrink-2 {
+    flex-shrink: 2;
+    width: 120px;
+    height: 100px;
+}
+
+.order-0 {
+  order: 0;
+  width: 120px;
+  height: 100px;
+}
+.order-1 {
+  order: 1;
+  width: 120px;
+  height: 100px;
+}
+.order-2 {
+  order: 1;
+  width: 120px;
+  height: 100px;
+}
+
+.align-self-start {
+  align-items: flex-start;
+  width: 120px;
+  height: 100px;
+}
+
+.align-self-center {
+  align-items: center;
+  width: 120px;
+  height: 100px;
+}
+.align-self-end {
+  align-items: flex-end;
+  width: 120px;
+  height: 100px;
+}
