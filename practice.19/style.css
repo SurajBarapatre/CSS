@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    padding: 5px;
+}
+
+h2{
+    text-transform: capitalize;
+   padding: 5px;
+   text-align: center;
+   font-style: normal;
+
+}
+
+li{
+    padding: 4px;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.body{
+
+      margin-top: 50px;
+      background-color: #615F63;
+      height: 400px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+p{
+    width: 95%;
+    padding:6px;
+}
+
+.header{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sub-box{
+    height:280px;
+    width: 95%;
+    background-color: rgb(245, 225, 42);
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(90, 204, 242);
+    text-align: center;
+    align-content: center;
+}
+
+.body-1{
+    height:560px;
+     padding:6px;
+}
+
+.body-2{
+    height:620px;
+}
+
+.box-1{
+    display:flex;
+}
+
+.box-2{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.box-3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-4{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.box-5{
+    display: flex;
+    flex-direction: row;
+}
+
+.box-6{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.box-7{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.box-8{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+.box-9{
+    display: flex;
+    flex-flow: row-wrap;
+}
+
+.box-10{
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
+
+.box-11{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.box-12{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.box-13{
+    display: flex;
+    flex-flow: column wrap-reverse;
+
+}
+
+.box-14{
+    display: flex;
+    flex-flow: column nowrap;
+}
