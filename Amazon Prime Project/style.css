@@ -67,7 +67,6 @@ nav a{
     linear-gradient(to right,
     rgba(0,0,0,.9),
     rgba(0,0,0,.2)),
-    url("images/banner.jpg");
     background-size:cover;
     background-position:center;
     margin-top:65px;
