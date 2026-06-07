@@ -1,150 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prime Video webpage 
-</title>
-<link rel="stylesheet" href="style.css">
-<link
-  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
-  rel="stylesheet"
-/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Prime Video Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
-    <div class="logo">prime video</div>
-
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Free to me</a>
-        <a href="#">Movies</a>
-        <a href="#">TV Shows</a>
-        <a href="#">Live TV</a>
-        <a href="#">Subscriptions</a>
-    </nav>
-
-    <div class="icons">
-        <i class="fas fa-search"></i>
-        <i class="fas fa-globe"></i>
-        <i class="fas fa-user-circle"></i>
-        <button>Join Prime</button>
-    </div>
-</header>
-
-<section class="banner">
-    <div class="overlay">
-        <h1>SPIDER-NOIR</h1>
-
-        <p>
-            English | Hindi | Tamil | Telugu
-            <br>
-            Malayalam | Kannada
-        </p>
-
-        <div class="india">
-            <i class="fa-solid fa-circle-check"></i>
-            #2 in India
+    <header class="navbar">
+        <div class="nav-left">
+            <div class="logo">
+                <span class="prime-text">prime</span> <span class="video-text">video</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#" class="nav-item">Home</a>
+                <a href="#" class="nav-item">Movies</a>
+                <a href="#" class="nav-item">TV shows</a>
+                <a href="#" class="nav-item">Live TV</a>
+                <a href="#" class="nav-item">Subscriptions</a>
+            </nav>
         </div>
 
-        <div class="buttons">
-            <button class="join">Join Prime</button>
-            <button class="<i class="ri-add-circle-line"></i>"></button>
-            <button class="info">
-                <i class="fa-solid fa-circle-info"></i>
-            </button>
+        <div class="nav-right">
+            <button class="nav-icon-btn" aria-label="Search"><i class="ri-search-line"></i></button>
+            <div class="lang-selector">
+                <a href="#" class="lang-text">EN</a>
+                <i class="ri-arrow-down-s-line"></i>
+            </div>
+            <button class="nav-icon-btn" aria-label="Menu Grid"><i class="ri-grid-fill"></i></button>
+            <div class="profile-avatar">
+                <i class="ri-user-fill"></i>
+            </div>
+            <button class="join-prime-btn">Join Prime</button>
         </div>
-    </div>
-</section>
+    </header>
 
-<section class="row">
-    <h2>Top 10 TV Shows in India</h2>
+    <main class="main-container">
 
-    <div class="cards">
+        <section class="hero-section">
+            <div class="hero-overlay-left"></div>
+            <div class="hero-overlay-bottom"></div>
+            
+            <div class="hero-content">
+                <h1 class="hero-title">SPIDER NOIR</h1>
+                
+                <div class="hero-meta">
+                    <span class="meta-lang">English | Hindi | Tamil | Telugu | Malayalam | Kannada</span>
+                    <span class="tag-badge"><i class="ri-award-line"></i> Top 10 in India</span>
+                </div>
+                
+                <p class="hero-description">
+                    Season 1 • Private eye Ben Reilly is living easy and navigating his past, until mobsters, monsters, and a femme fatale turn his world upside down. The city needs a hero, whether it likes it or not.
+                </p>
+                
+                <div class="hero-actions">
+                    <button class="btn-prime-watch">
+                        <i class="ri-play-fill"></i>
+                        <div class="btn-text-wrapper">
+                            <span class="btn-subtext">Prime</span>
+                            <span class="btn-maintext">Watch now</span>
+                        </div>
+                    </button>
+                    
+                    <button class="btn-round" title="Watchlist">
+                        <i class="ri-add-line"></i>
+                    </button>
+                    
+                    <button class="btn-round" title="Details">
+                        <i class="ri-information-line"></i>
+                    </button>
+                </div>
+                
+                <p class="prime-membership-text">Included with a Prime membership</p>
+            </div>
 
-        <div class="card">
-            <img src="images/show1.jpg">
-        </div>
+            <div class="carousel-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
 
-        <div class="card">
-            <img src="images/show2.jpg">
-        </div>
+        <section class="content-slider-section">
+            
+            <div class="slider-row">
+                <div class="row-header">
+                    <h2>See More OTT Award Winners</h2>
+                    <a href="#" class="see-more-link">See more <i class="ri-arrow-right-s-line"></i></a>
+                </div>
+                <div class="movie-grid">
+                    <div class="movie-card">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F16168135.jpg&f=1&nofb=1&ipt=4bcc93df16b611e484ac67cce29817dd55a84afdcc9ac1312c8ac7cce4d9aaac" alt="Paatal Lok">
+                        <div class="card-badge new-series">NEW SERIES</div>
+                        <div class="prime-icon-tag"><i class="ri-vip-crown-fill"></i></div>
+                        <div class="card-hover-info">
+                            <h4>Paatal Lok</h4>
+                            <p>Included with Prime</p>
+                        </div>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsimkl.in%2Ffanart%2F17%2F176807553b8e33f282_mobile.jpg&f=1&nofb=1&ipt=0d159ad5befb14595f18fecb83cf9da2083a21325d3512eceedccf53ba0ffa57" alt="Khauf">
+                        <div class="card-badge trending">TRENDING</div>
+                        <div class="prime-icon-tag"><i class="ri-vip-crown-fill"></i></div>
+                        <div class="card-hover-info">
+                            <h4>Khauf</h4>
+                            <p>Included with Prime</p>
+                        </div>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FS%2Fpv-target-images%2Fb2a52cc18df56274521abced2c09f3f10febf66cac9c7af63860ad735e5bf818.jpg&f=1&nofb=1&ipt=b1ea14f61724f95eea8aecd63a43cb6579f0a5cc1d94c13d813da4797778f7fa" alt="Call Me Bae">
+                        <div class="card-badge new-series">NEW SERIES</div>
+                        <div class="prime-icon-tag"><i class="ri-vip-crown-fill"></i></div>
+                        <div class="card-hover-info">
+                            <h4>Call Me Bae</h4>
+                            <p>Watch Season 1 Now</p>
+                        </div>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.thestatesman.com%2Fwp-content%2Fuploads%2F2024%2F08%2FSalim-Khan-Javed-Akhtar-Angry-Young-Men-jpg.webp&f=1&nofb=1&ipt=6219b5e6f23895433f51dcce54ca939cbf1a06431c6a2af40fe219e51a5fe3fc" alt="Angry Young Men">
+                        <div class="prime-icon-tag"><i class="ri-vip-crown-fill"></i></div>
+                        <div class="card-hover-info">
+                            <h4>Angry Young Men</h4>
+                            <p>Documentary Series</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <div class="card">
-            <img src="images/show3.jpg">
-        </div>
-
-        <div class="card">
-            <img src="images/show4.jpg">
-        </div>
-
-        <div class="card">
-            <img src="images/show5.jpg">
-        </div>
-
-        <div class="card">
-            <img src="images/show6.jpg">
-        </div>
-
-    </div>
-</section>
-
-<section class="row">
-    <h2>Recently Added TV</h2>
-
-    <div class="cards">
-
-        <div class="card">
-            <img src="images/tv1.jpg">
-        </div>
-
-        <div class="card">
-            <img src="images/tv2.jpg">
-        </div>
-
-        <div class="card">
-            <img src="images/tv3.jpg">
-        </div>
-
-        <div class="card">
-            <img src="images/tv4.jpg">
-        </div>
-
-        <div class="card">
-            <img src="images/tv5.jpg">
-        </div>
-
-    </div>
-</section>
-
-<section class="row">
-    <h2>Top-rated TV Shows on IMDb</h2>
-
-    <div class="cards">
-
-        <div class="card">
-            <img src="images/imdb1.jpg">
-        </div>
-
-        <div class="card">
-            <img src="images/imdb2.jpg">
-        </div>
-
-        <div class="card">
-            <img src="images/imdb3.jpg">
-        </div>
-
-        <div class="card">
-            <img src="images/imdb4.jpg">
-        </div>
-
-        <div class="card">
-            <img src="images/imdb5.jpg">
-        </div>
-
-    </div>
-</section>
+            <div class="slider-row">
+                <div class="row-header">
+                    <h2>Top TV Shows in India <i class="ri-refresh-line refresh-icon"></i></h2>
+                </div>
+                <div class="movie-grid ranked-grid">
+                    <div class="ranked-card">
+                        <div class="rank-number">1</div>
+                        <div class="movie-card">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.herzindagi.info%2Fher-zindagi-english%2Fimages%2F2026%2F05%2F18%2Farticle%2Fimage%2F5-Series-Like-Off-Campus-You-Need-To-Watch-1779117985227.webp&f=1&nofb=1&ipt=e96ab8f85e002e9fac59051331d56cf5e0094c7acff28f91602ef5923e34a32e" alt="">
+                            <div class="card-badge trending">TRENDING</div>
+                            <div class="prime-icon-tag"><i class="ri-vip-crown-fill"></i></div>
+                        </div>
+                    </div>
+                    <div class="ranked-card">
+                        <div class="rank-number">2</div>
+                        <div class="movie-card">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.digit.in%2Fproduct%2Fthe-pyramid-scheme-49602e51c3.jpeg&f=1&nofb=1&ipt=cd1d6958e721bbc8ae30aaae7ca04c68ce590df61cd21f446ebcf53e8de1f641" alt="">
+                            <div class="card-badge new-series">NEW SERIES</div>
+                            <div class="prime-icon-tag"><i class="ri-vip-crown-fill"></i></div>
+                        </div>
+                    </div>
+                    <div class="ranked-card">
+                        <div class="rank-number">3</div>
+                        <div class="movie-card">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.m9.news%2Fwp-content%2Fuploads%2F2026%2F06%2Fmade-in-india-titan-story-cast-poster.jpg&f=1&nofb=1&ipt=eef2a601c3b231d6ee666a6de475200f107174241a44f4f82fe54093d5613fa7" alt="">
+                            <div class="prime-icon-tag"><i class="ri-vip-crown-fill"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
 </body>
 </html>
